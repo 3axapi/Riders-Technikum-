@@ -1,0 +1,49 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="AvaloniaPaszport.MainWindow"
+        Title="AvaloniaPaszport"
+        Background="Gray">
+    <StackPanel Margin="15">
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+            
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="150"/>
+                    <ColumnDefinition />
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition />
+                    <RowDefinition />
+                    <RowDefinition />
+                    <RowDefinition />
+                </Grid.RowDefinitions>
+        
+                <TextBlock Grid.Column="0" Grid.Row="0" Text="Number"/>
+                <TextBlock Grid.Column="0" Grid.Row="1" Text="Imię" Margin="0 10"/>
+                <TextBlock Grid.Column="0" Grid.Row="2" Text="Nazwisko"/>
+                <TextBox Grid.Column="1" Grid.Row="0" />
+                <TextBox Grid.Column="1" Grid.Row="1" Margin="0 10"/>
+                <TextBox Grid.Column="1" Grid.Row="2" />
+                
+                <Border Grid.ColumnSpan="2" Grid.Row="3" BorderBrush="Azure"
+                        BorderThickness="2" Padding="10" Margin="0 40" CornerRadius="5">
+                    <StackPanel>
+                        <TextBlock Text="Kolor oczu" Margin="0 -20 100 0"
+                                   Background="Gray" Width="70"/>
+                        <RadioButton Content="niebieskie"/>
+                        <RadioButton Content="zielone"/>
+                        <RadioButton Content="brązowe"/>
+                    </StackPanel>
+                </Border>
+            </Grid>
+            
+        </Grid>
+    </StackPanel>
+</Window>

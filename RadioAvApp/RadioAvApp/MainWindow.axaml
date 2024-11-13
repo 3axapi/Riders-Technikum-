@@ -1,0 +1,41 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="650"
+        x:Class="RadioAvApp.MainWindow"
+        Title="RadioAvApp">
+        <StackPanel HorizontalAlignment="Center">
+            <CheckBox x:Name="MyCheckBox" Content="Check me"/>
+            
+            <StackPanel Orientation="Horizontal" Margin="10 20 0 0">
+                <RadioButton x:Name="RadioButton1"
+                             Content="Kebs" IsChecked="True"
+                             GroupName="Food"/>
+                <RadioButton x:Name="RadioButton2"
+                             Content="Pizza" IsChecked="True"
+                             GroupName="Food" Margin="10 0 0 0"/>
+            </StackPanel>
+            
+            <StackPanel Orientation="Vertical" Margin="20">
+                <RadioButton x:Name="RadioButton3" Content="Cola"
+                             IsChecked="True" GroupName="Drinks" Margin="10"/>
+                <RadioButton x:Name="RadioButton4" Content="Woda"
+                             IsChecked="True" GroupName="Drinks" Margin="10"/>
+                <RadioButton x:Name="RadioButton5" Content="Wino"
+                             IsChecked="True" GroupName="Drinks" Margin="10"/>
+                <RadioButton x:Name="RadioButton6" Content="Piwo"
+                             IsChecked="True" GroupName="Drinks" Margin="10"/>
+            </StackPanel>
+            
+            <ComboBox x:Name="ComboBoxMine" Width="100" Margin="20">
+                <ComboBoxItem Content="VIP"/>
+                <ComboBoxItem Content="Normal+"/>
+                <ComboBoxItem Content="Usual"/>
+            </ComboBox>
+            
+            <Button x:Name="SubmitButton" Content="Submit"
+                    Width="100" HorizontalAlignment="Center" Margin="20"/>
+            <Label x:Name="InfoLabel" Content="-------"/>
+        </StackPanel>
+</Window>

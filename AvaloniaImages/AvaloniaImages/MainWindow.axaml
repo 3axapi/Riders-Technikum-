@@ -1,0 +1,39 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="AvaloniaImages.MainWindow"
+        Title="AvaloniaImages"
+        Width="800"
+        Height="400">
+    <StackPanel Margin="10">
+        <!--<TextBlock Text="Application with images" TextAlignment="Center"/>
+        <Image Source="avares://AvaloniaImages/Assets/Images/olsztyn.jpg"
+               Width="200" Height="200" Margin="20"/>
+        
+        <StackPanel Margin="20" Orientation="Horizontal">
+            <Image Source="avares://AvaloniaImages/Assets/Images/benjamin-raffetseder-3IzKtuKdGuE-unsplash.jpg"
+                   Width="200" Height="200"
+                   Stretch="Fill" Margin="10"/>
+            <Image Source="avares://AvaloniaImages/Assets/5501832.jpg"
+                   Width="400" Height="200"
+                   Stretch="UniformToFill" Margin="10"/>
+        </StackPanel> -->
+        
+        <Button x:Name="RandomSelectiomButton"
+                Margin="10"
+                Content="Wylosuj obrazek"
+                Width="100"
+                HorizontalAlignment="Center"
+                HorizontalContentAlignment="Center"
+                Background="Yellow"
+                Foreground="black"
+                CornerRadius="20"
+                Click="RandomSelectiomButton_OnClick"/>
+        
+        <Image x:Name="DisplayCsharpek" Width="200"
+               Height="200" Stretch="Uniform"
+               Margin="10"/>
+    </StackPanel>
+</Window>

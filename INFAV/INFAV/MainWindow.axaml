@@ -1,0 +1,67 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="INFAV.MainWindow"
+        Title="Dodaj pracownika"
+        Width="800"
+        Height="400"
+        CanResize="False">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        
+        <Border Grid.Column="0" Grid.Row="0" BorderBrush="Coral"
+                BorderThickness="3" Margin="15" Padding="13">
+            <StackPanel>
+                <TextBlock Text="Dane prazownika" Margin="0 0 0 20" FontWeight="Black"/>
+                
+                <StackPanel Orientation="Horizontal" Margin="10">
+                    <TextBlock Text="Imię" Padding="20 0 0 0"/>
+                    <TextBox Margin="37 0 0 0" Width="150"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Margin="10">
+                    <TextBlock Text="Nazwisko" Padding="3 0 0 0"/>
+                    <TextBox Margin="18 0 0 0"  Width="150"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Margin="10">
+                    <TextBlock Text="Stanowisko"/>
+                    <ComboBox Margin="9 0 0 0"  Width="150">
+                       <ComboBoxItem Content=""/>
+                       <ComboBoxItem Content=""/>
+                       <ComboBoxItem Content=""/>
+                   </ComboBox>
+                </StackPanel>
+            </StackPanel>
+        </Border>
+        <Border Grid.Column="1" Grid.Row="0" BorderBrush="Coral"
+                BorderThickness="3" Margin="15" Padding="13">
+            <StackPanel>
+                <TextBlock Text="Generowania hasła" Margin="0 0 0 20" FontWeight="Black"/>
+                
+                <StackPanel Orientation="Horizontal" Margin="10">
+                    <TextBlock Text="Ile znaków?"/>
+                    <TextBox Margin="37 0 0 0" Width="150"/>
+                </StackPanel>
+                
+                <CheckBox Content="Content" Margin="10 0"/>
+                <CheckBox Content="Content" Margin="10 10"/>
+                <CheckBox Content="Content" Margin="10 0"/>
+                
+                <Button Margin="5" Content="Generuj hasło" Width="120" HorizontalAlignment="Center" HorizontalContentAlignment="Center"/>
+            </StackPanel>
+        </Border>
+        
+        <Button Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="1"
+                Content="Zatwierdź"
+                Width="260" HorizontalAlignment="Center"
+                HorizontalContentAlignment="Center"/>
+    </Grid>
+</Window>

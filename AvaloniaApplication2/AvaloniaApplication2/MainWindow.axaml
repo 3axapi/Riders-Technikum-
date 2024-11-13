@@ -1,0 +1,23 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="AvaloniaApplication2.MainWindow"
+        Title="AvaloniaApplication2">
+    <StackPanel Margin="50">
+        <TextBlock Text="Content:" />
+        <TextBox x:Name="ContentTextBox" Height="100" />
+        
+        <StackPanel Orientation="Horizontal" Margin="20">
+            <Button x:Name="ReadButton" Content="Read" Width="75"
+                    Click="ReadButton_Click" />
+            <Button x:Name="WriteButton" Content="Write" Width="75"
+                    Click="WriteButton_Click" />
+            <Button x:Name="UpdateButton" Content="Update" Width="75"
+                    Click="UpdateButton_Click" />
+            <Button x:Name="DeleteButton" Content="Delete" Width="75"
+                    Click="DeleteButton_Click" />
+        </StackPanel>
+    </StackPanel>
+</Window>

@@ -1,0 +1,16 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="SeptemberAvaloniaApplication.MainWindow"
+        Title="SeptemberAvaloniaApplication">
+        <StackPanel>
+                <StackPanel Margin="19">
+                        <Border BorderBrush="Brown" BorderThickness="9" CornerRadius="10" Background="Bisque">
+                                <TextBlock Name="welc" Text="Welcome the Avalonia" FontSize="19" FontWeight="Bold" Padding="10" HorizontalAlignment="Center"/>
+                        </Border>
+                </StackPanel> 
+                <Button Content="Detonate" Click="Detonate" HorizontalAlignment="Center" Padding="20" Margin="50 10"/>
+        </StackPanel>
+</Window>

@@ -1,0 +1,14 @@
+/home/v_tie/RiderProjects/INF04CONSOLE/INF04CONSOLE/bin/Debug/net8.0/INF04CONSOLE
+/home/v_tie/RiderProjects/INF04CONSOLE/INF04CONSOLE/bin/Debug/net8.0/INF04CONSOLE.deps.json
+/home/v_tie/RiderProjects/INF04CONSOLE/INF04CONSOLE/bin/Debug/net8.0/INF04CONSOLE.runtimeconfig.json
+/home/v_tie/RiderProjects/INF04CONSOLE/INF04CONSOLE/bin/Debug/net8.0/INF04CONSOLE.dll
+/home/v_tie/RiderProjects/INF04CONSOLE/INF04CONSOLE/bin/Debug/net8.0/INF04CONSOLE.pdb
+/home/v_tie/RiderProjects/INF04CONSOLE/INF04CONSOLE/obj/Debug/net8.0/INF04CONSOLE.GeneratedMSBuildEditorConfig.editorconfig
+/home/v_tie/RiderProjects/INF04CONSOLE/INF04CONSOLE/obj/Debug/net8.0/INF04CONSOLE.AssemblyInfoInputs.cache
+/home/v_tie/RiderProjects/INF04CONSOLE/INF04CONSOLE/obj/Debug/net8.0/INF04CONSOLE.AssemblyInfo.cs
+/home/v_tie/RiderProjects/INF04CONSOLE/INF04CONSOLE/obj/Debug/net8.0/INF04CONSOLE.csproj.CoreCompileInputs.cache
+/home/v_tie/RiderProjects/INF04CONSOLE/INF04CONSOLE/obj/Debug/net8.0/INF04CONSOLE.dll
+/home/v_tie/RiderProjects/INF04CONSOLE/INF04CONSOLE/obj/Debug/net8.0/refint/INF04CONSOLE.dll
+/home/v_tie/RiderProjects/INF04CONSOLE/INF04CONSOLE/obj/Debug/net8.0/INF04CONSOLE.pdb
+/home/v_tie/RiderProjects/INF04CONSOLE/INF04CONSOLE/obj/Debug/net8.0/INF04CONSOLE.genruntimeconfig.cache
+/home/v_tie/RiderProjects/INF04CONSOLE/INF04CONSOLE/obj/Debug/net8.0/ref/INF04CONSOLE.dll

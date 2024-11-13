@@ -1,0 +1,46 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="1200" d:DesignHeight="350"
+        x:Class="AvaloniaApplication3.MainWindow"
+        Width="1200" Height="350"
+        Background="#2E8B57"
+        Title="AvaloniaApplication3">
+    <StackPanel Orientation="Horizontal" VerticalAlignment="Center" Margin="20">
+        <StackPanel Orientation="Horizontal" Width="580">
+            <StackPanel VerticalAlignment="Center">
+                <Button HorizontalAlignment="Left">
+                    <Image Source="./src/obraz3.png" Height="70"/>
+                </Button>
+            </StackPanel>
+            
+            <StackPanel Margin="40">
+                <Image Source="./src/obraz.png" Height="200"/>
+                
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Margin="0 20 0 0">
+                    <TextBlock x:Name="DCount" Text="11000102" Foreground="#61D918" FontSize="20" VerticalAlignment="Center"/>
+                    <Button Content="Pobierz" FontSize="20" Background="#61D918" FontWeight="Bold" Margin="39 0 0 0"/>
+                </StackPanel>
+            </StackPanel>
+            
+            <StackPanel VerticalAlignment="Center">
+                <TextBlock x:Name="Album" Text="Gorillaz" FontSize="50" Foreground="White"/>
+                <TextBlock x:Name="Title" Text='"The Now Now"' FontSize="30" Foreground="White" FontStyle="Italic"/>
+                
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock x:Name="ACount" Text="11 utworów" Foreground="#61D918" FontSize="20" Margin="0 0 40 0"/>
+                    <TextBlock x:Name="Year" Text="2018" Foreground="#61D918" FontSize="20"/>
+                </StackPanel>
+            </StackPanel>
+        </StackPanel>
+        
+        <StackPanel VerticalAlignment="Center" Width="580">
+            <StackPanel HorizontalAlignment="Right">
+                <Button Click="Right_Click">
+                    <Image Source="./src/obraz2.png" Height="70"/>
+                </Button>
+            </StackPanel>
+        </StackPanel>
+    </StackPanel>
+</Window>
